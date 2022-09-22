@@ -1,13 +1,13 @@
 package log4j.demo;
 
-//import java.io.IOException;
+import java.io.IOException;
 
 //import org.apache.log4j.BasicConfigurator;
-//import org.apache.log4j.ConsoleAppender;
+import org.apache.log4j.ConsoleAppender;
 //import org.apache.log4j.FileAppender;
 import org.apache.log4j.Logger;
-//import org.apache.log4j.PatternLayout;
-import org.apache.log4j.PropertyConfigurator;
+import org.apache.log4j.PatternLayout;
+//import org.apache.log4j.PropertyConfigurator;
 
 public class Main {
 
@@ -24,15 +24,15 @@ public class Main {
 		
 		System.out.println(COMMON_MESSAGE);
 		
-//		logger.addAppender(new ConsoleAppender(new PatternLayout()));
-//		try {
-//			
-//			logger.addAppender(new FileAppender(new PatternLayout(),"log4j_demo.log"));
-//			
-//		} catch (IOException e) {
-//			
-//			logger.trace(e.getLocalizedMessage());
-//		}
+		logger.addAppender(new ConsoleAppender(new PatternLayout()));
+		try {
+			
+			logger.addAppender(FreshFileAppender.getFreshFileAppender(new PatternLayout(),"log4j_demo.log"));
+			
+		} catch (IOException e) {
+			
+			logger.trace(e.getLocalizedMessage());
+		}
 		
 //		logger.addAppender(new ConsoleAppender(new PatternLayout(logEntryPattern )));
 //		try {
@@ -64,7 +64,7 @@ public class Main {
 //			logger.trace(e.getLocalizedMessage());
 //		}
 
-		PropertyConfigurator.configure("log4j.properties");
+//		PropertyConfigurator.configure("log4j.properties");
 		
 		logger.info(COMMON_MESSAGE+" : INFO");
 		logger.error(COMMON_MESSAGE+" : ERROR");
@@ -73,6 +73,6 @@ public class Main {
 		logger.trace(COMMON_MESSAGE+" : TRACE");
 		logger.fatal(COMMON_MESSAGE+" : FATAL");
 		
-		SecondFile.main(args);
+		SecondFile.secondaryMain(args);
 	}
 }

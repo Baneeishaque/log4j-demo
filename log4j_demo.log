@@ -1,30 +1,10 @@
-2022-09-22 17:01:08,444 [main] INFO  root - From SecondFile.java : INFO
-2022-09-22 17:01:08,445 [main] ERROR root - From SecondFile.java : ERROR
-2022-09-22 17:01:08,445 [main] WARN  root - From SecondFile.java : WARN
-2022-09-22 17:01:08,445 [main] DEBUG root - From SecondFile.java : DEBUG
-2022-09-22 17:01:08,445 [main] FATAL root - From SecondFile.java : FATAL
-2022-09-22 17:04:21,452 [main] INFO  log4j.demo.SecondFile - From SecondFile.java : INFO
-2022-09-22 17:04:21,453 [main] ERROR log4j.demo.SecondFile - From SecondFile.java : ERROR
-2022-09-22 17:04:21,453 [main] WARN  log4j.demo.SecondFile - From SecondFile.java : WARN
-2022-09-22 17:04:21,453 [main] DEBUG log4j.demo.SecondFile - From SecondFile.java : DEBUG
-2022-09-22 17:04:21,453 [main] FATAL log4j.demo.SecondFile - From SecondFile.java : FATAL
-2022-09-22 17:07:16,023 [main] INFO  log4j.demo.Main - From Main.java : INFO
-2022-09-22 17:07:16,024 [main] ERROR log4j.demo.Main - From Main.java : ERROR
-2022-09-22 17:07:16,024 [main] WARN  log4j.demo.Main - From Main.java : WARN
-2022-09-22 17:07:16,024 [main] DEBUG log4j.demo.Main - From Main.java : DEBUG
-2022-09-22 17:07:16,024 [main] FATAL log4j.demo.Main - From Main.java : FATAL
-2022-09-22 17:07:19,773 [main] INFO  log4j.demo.SecondFile - From SecondFile.java : INFO
-2022-09-22 17:07:19,774 [main] ERROR log4j.demo.SecondFile - From SecondFile.java : ERROR
-2022-09-22 17:07:19,774 [main] WARN  log4j.demo.SecondFile - From SecondFile.java : WARN
-2022-09-22 17:07:19,774 [main] DEBUG log4j.demo.SecondFile - From SecondFile.java : DEBUG
-2022-09-22 17:07:19,774 [main] FATAL log4j.demo.SecondFile - From SecondFile.java : FATAL
-2022-09-22 17:07:48,827 [main] INFO  log4j.demo.Main - From Main.java : INFO
-2022-09-22 17:07:48,828 [main] ERROR log4j.demo.Main - From Main.java : ERROR
-2022-09-22 17:07:48,828 [main] WARN  log4j.demo.Main - From Main.java : WARN
-2022-09-22 17:07:48,828 [main] DEBUG log4j.demo.Main - From Main.java : DEBUG
-2022-09-22 17:07:48,828 [main] FATAL log4j.demo.Main - From Main.java : FATAL
-2022-09-22 17:07:48,829 [main] INFO  log4j.demo.SecondFile - From SecondFile.java : INFO
-2022-09-22 17:07:48,830 [main] ERROR log4j.demo.SecondFile - From SecondFile.java : ERROR
-2022-09-22 17:07:48,830 [main] WARN  log4j.demo.SecondFile - From SecondFile.java : WARN
-2022-09-22 17:07:48,830 [main] DEBUG log4j.demo.SecondFile - From SecondFile.java : DEBUG
-2022-09-22 17:07:48,830 [main] FATAL log4j.demo.SecondFile - From SecondFile.java : FATAL
+From Main.java : INFO
+From Main.java : ERROR
+From Main.java : WARN
+From Main.java : DEBUG
+From Main.java : FATAL
+From SecondFile.java : INFO
+From SecondFile.java : ERROR
+From SecondFile.java : WARN
+From SecondFile.java : DEBUG
+From SecondFile.java : FATAL
